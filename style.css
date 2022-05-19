@@ -1,0 +1,139 @@
+
+* {
+margin: 0;
+padding: 0;
+transition: .3s;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.container-full{
+    width: 100%;
+
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.header-area{
+    background-image: linear-gradient(180deg, red, yellow);
+}
+#nav{
+    height: 70px;
+
+}
+.nav-logo{
+    float: left;
+}
+.nav-logo a{
+    font-size: 25px;
+    color: brown;
+    padding: 10px 0;
+    display: block;
+}
+
+.main-menu{
+float: right;
+}
+.main-menu ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+.main-menu ul li a{
+    display: block;
+    padding: 10px 0;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+}
+.main-menu ul li a:before{
+    content:();
+position: absolute;
+background-color: aliceblue;
+width: 0px;
+height: 2px;
+}
+.main-menu ul li a:hover:before{
+    width: 100%;
+}
+.home-area{
+    background-image: url(../image/home\ logo.png);
+    height: 600px;
+    background-size: cover;
+}
+.home-text{
+    text-align: center;
+    background-color:rgb(255, 0, 21);
+    padding: 100px;
+}
+.home-btn{
+    text-align: center;
+    color: blueviolet;
+    background-color: rgb(211, 195, 195);
+    padding: 12px 20px;
+    font-size: 50px;
+    
+}
+
+.home-btn a{
+    text-align: center;
+    color: blueviolet;
+    background-color: rgb(211, 195, 195);
+    padding: 12px 20px;
+    font-size: 50px;
+    margin-right: 16px;
+    padding-top: 10px;;
+    
+}
+.home-btn a:first-child {
+background-color: lightsalmon;
+transition: 3s;
+}
+.home-btn a:first-child:hover {
+    background-color: rgb(126, 255, 122);
+    }
+    .home-btn a:second-child {
+        background-color: lightsalmon;
+        transition: 3s;
+        }
+        .home-btn a:second-child:hover {
+            background-color: rgb(126, 255, 122);
+            }
+         .about-content h2{
+             padding: 10px 0;
+            color:black;
+            font-size:30px;
+            text-align: center;
+         }  
+         .about-txt{
+             font-size: 13px;
+             color: black;
+             background-color: red;
+            
+         }
+         .service-txt{
+             font-size: 12px;
+             background-color: red;
+             color: black;
+         }
+         .service-content{
+             text-align: center;
+         }
+
+         
+         .contact-area h2{
+             text-align: center;
+         }
+         .contact-txt{
+            font-size: 13px;
+            color: black;
+            background-color: red;
+           
+        }  
+         
+         
